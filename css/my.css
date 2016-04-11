@@ -29,3 +29,9 @@ input[type="button"]:hover {
 #ans {
 	visibility: hidden;
 }
+
+.text4input {
+	color: #fff;
+	padding-bottom: 5px;
+	font-size: 15px;
+}
