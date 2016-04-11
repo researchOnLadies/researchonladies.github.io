@@ -40,7 +40,7 @@
 				$(".day").html(ans); 
 				$("#ans").css("visibility","visible").focus();
 				$('html, body').animate({scrollTop:300}, 'slow');
-
+				e.preventDefault();
 			})
 		})
 	</script>
@@ -54,7 +54,7 @@
 			<input type="text" class="name bWorth" placeholder="男方資產(Worth) 每10萬港元為1個單位，不置上限，物業及汽車亦計算在內" required="">
 			<input type="text" class="name sexPartner" placeholder="女方曾有性行為的男性數目(Sex Partner)" required="">
 			<div class="clear"></div>
-			<input class="submit" type="button" value="答案">
+			<input class="submit" type="submit" value="答案">
 		</form>
 	</div>
 	<h1 id="ans">你需要<span class="day"></span>日。</h1>
