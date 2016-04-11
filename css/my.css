@@ -1,0 +1,27 @@
+#Anthony input.name {
+	background: rgb(255, 255, 255);
+}
+
+#Anthony h2 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 16px;
+    color: #AAA;
+    margin-top: 45px;
+}
+
+input[type="submit"]:hover {
+	cursor: initial;
+	transition: none;
+	-webkit-transition: none;
+	-moz-transition: none;
+	-o-transition: none;
+	-ms-transition: none;
+}
+
+input[type="submit"] {
+	transition: none;
+	-webkit-transition: none;
+	-moz-transition: none;
+	-o-transition: none;
+	-ms-transition: none;
+}
