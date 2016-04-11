@@ -9,19 +9,23 @@
     margin-top: 45px;
 }
 
-input[type="submit"]:hover {
-	cursor: initial;
-	transition: none;
-	-webkit-transition: none;
-	-moz-transition: none;
-	-o-transition: none;
-	-ms-transition: none;
+input[type="button"] {
+	margin-top: 60px;
+	padding: 8px 20px;
+	border: none;
+	outline: none;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 20px;
+	letter-spacing: 2px;
+	font-weight: 600;
+	color: #501522;
+	background-color: #FFF;
+}
+input[type="button"]:hover {
+	background-color: #000;
+	color: #FFF;
 }
 
-input[type="submit"] {
-	transition: none;
-	-webkit-transition: none;
-	-moz-transition: none;
-	-o-transition: none;
-	-ms-transition: none;
+#ans {
+	visibility: hidden;
 }
